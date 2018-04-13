@@ -1,0 +1,19 @@
+go_library(
+    name='lib',
+    package_name='gopkg.in/yaml.v2',
+    visibility=['PUBLIC'],
+    srcs=['apic.go',
+          'decode.go',
+          'emitterc.go',
+          'encode.go',
+          'parserc.go',
+          'readerc.go',
+          'resolve.go',
+          'scannerc.go',
+          'sorter.go',
+          'writerc.go',
+          'yaml.go',
+          'yamlh.go',
+          'yamlprivateh.go'],
+)
+
