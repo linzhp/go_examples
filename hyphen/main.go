@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"go/parser"
 	"go/token"
+
+	_ "github.com/StackExchange/dnscontrol/providers/hexonet"
+	_ "github.com/linzhp/go_examples/modEnabled/subPkg"
 )
 
 var testFileSet = token.NewFileSet()
